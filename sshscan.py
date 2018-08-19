@@ -2,14 +2,14 @@ import os
 import sys
 import threading
 from datetime import datetime
-print('[!] [' + str(datetime.now().time()) + '] SSH Scanner started...')
+print(' SSH Scanner started...')
 import random
 import socket
 import time
 try:
 	import paramiko
 except ImportError:
-	print('[!] [' + str(datetime.now().time()) + '] You do not have paramiko installed')
+	print('You do not have paramiko installed')
 
 paramiko.util.log_to_file('/dev/null')
 
