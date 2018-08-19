@@ -39,10 +39,10 @@ octets = str(sys.argv[3])
 timeOUT = str(sys.argv[4])
 
 
-print('[!] [' + str(datetime.now().time()) + '] Threads: ' + threads)
-print('[!] [' + str(datetime.now().time()) + ']   Range: ' + ranged)
-print('[!] [' + str(datetime.now().time()) + ']  Octets: ' + octets)
-print('[!] [' + str(datetime.now().time()) + '] timeout: ' + str(timeOUT))
+print(' Threads: ' + threads)
+print('   Range: ' + ranged)
+print('  Octets: ' + octets)
+print('timeout: ' + str(timeOUT))
 
 
 def scanner(id):
