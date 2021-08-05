@@ -1,3 +1,7 @@
+
+##### ITS BROKEN
+##Fix it by making it run the brute process
+
 import threading
 import sys
 import socket, ftplib
