@@ -1,7 +1,7 @@
 
 ##### ITS BROKEN
 ##Fix it by making it run the brute process
-
+#for now using fip.py to work with hydra
 import threading
 import sys
 import socket, ftplib
